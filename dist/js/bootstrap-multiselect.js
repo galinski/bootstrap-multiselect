@@ -1411,7 +1411,7 @@
          * Clears all selected items.
          */
         clearSelection: function () {
-            this.deselectAll(false);
+            this.deselectAll(false, true);
             this.updateButtonText();
             this.updateSelectAll();
 
