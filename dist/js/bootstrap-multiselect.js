@@ -1578,6 +1578,7 @@
             this.options.multiple = this.$select.attr('multiple') === "multiple";
 
             this.buildSelectAll();
+            this.buildReset();
             this.buildDropdownOptions();
             this.buildFilter();
 
