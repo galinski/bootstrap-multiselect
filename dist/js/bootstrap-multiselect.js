@@ -1577,8 +1577,8 @@
             // Important to distinguish between radios and checkboxes.
             this.options.multiple = this.$select.attr('multiple') === "multiple";
 
-            this.buildSelectAll();
             this.buildReset();
+            this.buildSelectAll();
             this.buildDropdownOptions();
             this.buildFilter();
 
